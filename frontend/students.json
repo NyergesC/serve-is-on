@@ -1,0 +1,27 @@
+[
+    {
+        "name":"John",
+        "surname":"Doe",
+        "status":"active",
+        "id":1
+
+    },
+    {
+        "name":"Sweety",
+        "surname":"Smith",
+        "status":"finished"
+
+    },
+    {
+        "name":"Adam",
+        "surname":"Scoth",
+        "status":"finished"
+
+    },
+    {
+        "name":"Bob",
+        "surname":"Marlin",
+        "status":"active"
+
+    }
+]
