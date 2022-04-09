@@ -32,7 +32,7 @@ app.get('/api/students/1', (req,resp,next)=>{
 
 //active and finished
 
-app.get('/api/students/active', (req,resp,next)=>{     
+app.get('/api/status/active', (req,resp,next)=>{     
     fs.readFile('../frontend/students.json',(error, data)=>{
         if(error){
             resp.send('Error happened')
@@ -43,7 +43,7 @@ app.get('/api/students/active', (req,resp,next)=>{
         }
     })
 });
-app.get('/api/students/finished', (req,resp,next)=>{     
+app.get('/api/status/finished', (req,resp,next)=>{     
     fs.readFile('../frontend/students.json',(error, data)=>{
         if(error){
             resp.send('Error happened')
